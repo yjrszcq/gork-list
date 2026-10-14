@@ -1,0 +1,57 @@
+# UPDATED 2026-10-15
+
+# =========================
+# Grok / xAI Core
+# =========================
+
+# xAI 官网 / API / Console / Auth
+# Covers: api.x.ai, console.x.ai, accounts.x.ai, auth.x.ai, etc.
+DOMAIN-SUFFIX,x.ai
+
+# SpaceX AI / xAI 账号与登录相关
+# Covers: accounts.spacex.ai and other spacex.ai subdomains
+DOMAIN-SUFFIX,spacex.ai
+
+# Grok 主站 / Web / Assets / Code / LiveKit
+# Covers: grok.com, assets.grok.com, code.grok.com, livekit.grok.com, etc.
+DOMAIN-SUFFIX,grok.com
+
+# Grok 用户上传内容 / 生成内容 / Artifacts
+# Covers: assets.grokusercontent.com, artifacts.grokusercontent.com, etc.
+DOMAIN-SUFFIX,grokusercontent.com
+
+# Grok Build / Code Sandbox
+DOMAIN-SUFFIX,grok-sandbox.com
+
+# Grok 临时 / 嵌入内容
+DOMAIN-SUFFIX,groktpcontent.com
+
+# Grokipedia
+DOMAIN-SUFFIX,grokipedia.com
+
+# Grok Support
+DOMAIN-SUFFIX,groksupport.com
+
+
+# =========================
+# Grok Feature / Config
+# =========================
+
+# Statsig feature flags / configuration
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,assetsconfigcdn.org
+DOMAIN-SUFFIX,beyondwickedmapping.org
+DOMAIN-SUFFIX,prodregistryv2.org
+
+# Statsig API / CDN
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,statsigcdn.com
+
+
+# =========================
+# xAI Telemetry
+# =========================
+
+# xAI Chronosphere telemetry / monitoring
+DOMAIN-SUFFIX,xai.chronosphere.io
