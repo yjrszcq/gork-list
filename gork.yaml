@@ -1,19 +1,26 @@
 # UPDATED 2026-10-15
-
 payload:
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,spacex.ai
   - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,grokusercontent.com
-  - DOMAIN-SUFFIX,grok-sandbox.com
-  - DOMAIN-SUFFIX,groktpcontent.com
   - DOMAIN-SUFFIX,grokipedia.com
   - DOMAIN-SUFFIX,groksupport.com
+  - DOMAIN-SUFFIX,groktpcontent.com
+  - DOMAIN-SUFFIX,grok-sandbox.com
+  - DOMAIN,grok-api.gcp.mouseion.dev
+  - DOMAIN-SUFFIX,hades-www.mouseion.dev
+  - DOMAIN-SUFFIX,hades-wwwd.mouseion.dev
+  - DOMAIN,livekit.mouseion.dev
   - DOMAIN-SUFFIX,featureassets.org
   - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,assetsconfigcdn.org
   - DOMAIN-SUFFIX,beyondwickedmapping.org
   - DOMAIN-SUFFIX,prodregistryv2.org
+  - DOMAIN-SUFFIX,statsig.com
   - DOMAIN-SUFFIX,statsigapi.net
   - DOMAIN-SUFFIX,statsigcdn.com
-  - DOMAIN-SUFFIX,xai.chronosphere.io
+  - DOMAIN,xai.chronosphere.io
+  - DOMAIN-SUFFIX,mixpanel.com
+  - IP-CIDR,31.207.0.0/24,no-resolve
+  - IP-ASN,400297,no-resolve
