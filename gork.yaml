@@ -1,0 +1,17 @@
+payload:
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,spacex.ai
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,grokusercontent.com
+  - DOMAIN-SUFFIX,grok-sandbox.com
+  - DOMAIN-SUFFIX,groktpcontent.com
+  - DOMAIN-SUFFIX,grokipedia.com
+  - DOMAIN-SUFFIX,groksupport.com
+  - DOMAIN-SUFFIX,featureassets.org
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,assetsconfigcdn.org
+  - DOMAIN-SUFFIX,beyondwickedmapping.org
+  - DOMAIN-SUFFIX,prodregistryv2.org
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-SUFFIX,statsigcdn.com
+  - DOMAIN-SUFFIX,xai.chronosphere.io
