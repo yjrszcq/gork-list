@@ -5,26 +5,16 @@
 # =========================
 
 # xAI 官网 / API / Console / Auth
-# Covers: api.x.ai, console.x.ai, accounts.x.ai, auth.x.ai, etc.
 DOMAIN-SUFFIX,x.ai
 
 # SpaceX AI / xAI 账号与登录相关
-# Covers: accounts.spacex.ai and other spacex.ai subdomains
 DOMAIN-SUFFIX,spacex.ai
 
 # Grok 主站 / Web / Assets / Code / LiveKit
-# Covers: grok.com, assets.grok.com, code.grok.com, livekit.grok.com, etc.
 DOMAIN-SUFFIX,grok.com
 
 # Grok 用户上传内容 / 生成内容 / Artifacts
-# Covers: assets.grokusercontent.com, artifacts.grokusercontent.com, etc.
 DOMAIN-SUFFIX,grokusercontent.com
-
-# Grok Build / Code Sandbox
-DOMAIN-SUFFIX,grok-sandbox.com
-
-# Grok 临时 / 嵌入内容
-DOMAIN-SUFFIX,groktpcontent.com
 
 # Grokipedia
 DOMAIN-SUFFIX,grokipedia.com
@@ -32,26 +22,62 @@ DOMAIN-SUFFIX,grokipedia.com
 # Grok Support
 DOMAIN-SUFFIX,groksupport.com
 
+# Grok 临时 / 嵌入内容
+DOMAIN-SUFFIX,groktpcontent.com
+
+# Grok Build / Code Sandbox
+DOMAIN-SUFFIX,grok-sandbox.com
+
 
 # =========================
-# Grok Feature / Config
+# Grok Internal Services
 # =========================
 
-# Statsig feature flags / configuration
+# Grok API internal service
+DOMAIN,grok-api.gcp.mouseion.dev
+
+# Grok Hades internal services
+DOMAIN-SUFFIX,hades-www.mouseion.dev
+DOMAIN-SUFFIX,hades-wwwd.mouseion.dev
+
+# Grok realtime / LiveKit
+DOMAIN,livekit.mouseion.dev
+
+
+# =========================
+# Feature Flags / Config
+# =========================
+
+# Grok / Statsig feature flags and configuration
 DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,assetsconfigcdn.org
 DOMAIN-SUFFIX,beyondwickedmapping.org
 DOMAIN-SUFFIX,prodregistryv2.org
 
-# Statsig API / CDN
+# Statsig services
+DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,statsigcdn.com
 
 
 # =========================
-# xAI Telemetry
+# Telemetry / Analytics
 # =========================
 
-# xAI Chronosphere telemetry / monitoring
-DOMAIN-SUFFIX,xai.chronosphere.io
+# xAI Chronosphere monitoring
+DOMAIN,xai.chronosphere.io
+
+# Analytics
+DOMAIN-SUFFIX,mixpanel.com
+
+
+# =========================
+# IP / ASN Fallback
+# =========================
+
+# X.AI CORP. 当前明确宣告的 IPv4 网段
+IP-CIDR,31.207.0.0/24,no-resolve
+
+# X.AI CORP. ASN
+IP-ASN,400297,no-resolve
